@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="homepage">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to the BirthDay App!"/>
   </div>
@@ -14,5 +14,5 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
     HelloWorld,
   },
 })
-export default class Home extends Vue {}
+export default class Homepage extends Vue {}
 </script>

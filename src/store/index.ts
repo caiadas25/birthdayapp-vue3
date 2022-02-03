@@ -1,7 +1,6 @@
 import { createStore } from 'vuex'
 import { Navigation } from '@/types/Navigation';
 import { Router } from 'vue-router';
-
 export default createStore({
   state: {
     availableRoutes: {} as Navigation,

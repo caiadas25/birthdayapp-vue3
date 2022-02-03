@@ -25,10 +25,6 @@ export default class Navbar extends Vue {
   mounted() {
     store.dispatch('getAvailableRoutes', this.$router);
   }
-
-  get availableRoutes() {
-    return this.routes;
-  }
 }
 </script>
 

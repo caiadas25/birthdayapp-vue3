@@ -1,6 +1,8 @@
 import { createClient } from '@supabase/supabase-js'
 
+//@ts-ignore
 const supabaseUrl = import.meta.env.VUE_APP_SUPABASE_URL
+//@ts-ignore
 const supabaseAnonKey = import.meta.env.VUE_APP_SUPABASE_ANON_KEY
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)

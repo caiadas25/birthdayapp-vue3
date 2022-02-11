@@ -33,8 +33,9 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
-, "src/supabase/init.js"  ],
+    "tests/**/*.tsx",
+    "src/supabase/init.js"
+  ],
   "exclude": [
     "node_modules"
   ]
